@@ -20,11 +20,11 @@ const sitemap = [
   const socials = [
     {
       label: 'GitHub',
-      href: 'https://www.github.com/codewithsadee-org'
+      href: 'https://github.com/mohamed-mk-hash'
     },
     {
       label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/codewithsadee'
+      href: 'https://www.linkedin.com/in/mokhtarimohamedlamine/'
     },
   ];
 
