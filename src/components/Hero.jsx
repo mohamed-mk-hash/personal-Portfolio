@@ -10,7 +10,7 @@ const Hero = () => {
   const {t} = useTranslation()
 
   return (
-    <section id="home" className="pt-5 lg:pt-50">
+    <section id="home" className="pt-40 lg:pt-50">
      <div className="hero-container container items-center lg:grid">
 
         <div>
