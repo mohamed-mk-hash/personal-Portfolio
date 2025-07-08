@@ -1,0 +1,122 @@
+{
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "work": "Work",
+      "contact": "Contact"
+    },
+
+    "about": {
+      "description": "Welcome! I'm Mokhtrai Mohamed Lamine, a web developer with over 3 years of experience. I build clean, responsive websites using HTML, CSS, JavaScript, React, PHP, Laravel, and WordPress — always focused on usability, performance, and delivering real-world results.",
+      "project_done": "Project done",
+      "years_experience": "Years of experience"
+    },
+
+    "hero": {
+      "available": "Available for work",
+      "title": "Building Fast, Reliable Websites That Just Work",
+      "download": "Download CV",
+      "scroll": "Scroll down"
+    },
+
+    "skill" : {
+      "title": "Essential Tools I use",
+      "description": "Explore the tools and technologies I use to build fast, reliable, and user-focused websites and applications."
+    },
+
+    "Skills" :{
+      "Skill1" : {
+        "title": "Structure Markup Language"
+      },
+      "Skill2" : {
+        "title": "User Interface"
+      },
+      "Skill3" : {
+        "title": "Interaction"
+      },
+      "Skill4" : {
+        "title": "Backend Language"
+      },
+      "Skill5" : {
+        "title": "CMS platforme"
+      },
+      "Skill6" : {
+        "title": "PHP Framework"
+      },
+      "Skill7" : {
+        "title": "Framework"
+      },
+      "Skill8" : {
+        "title": "User Interface"
+      }
+    },
+
+    "work": {
+      "title": "My Portfolio highlights",
+      "projects": {
+        "project1": {
+          "title": "Car Sales Web App"
+        },
+        "project2": {
+          "title": "Houari Ibrahim Portfolio"
+        },
+        "project3": {
+          "title": "Edusity College Website"
+        },
+        "project4": {
+          "title": "Albaraka Charity Website"
+        },
+        "project5": {
+          "title": "Fitness Training Platform"
+        },
+        "project6": {
+          "title": "Phone Accessories Online Store"
+        },
+        "project7": {
+          "title": "Sami Aladwani Portfolio"
+        },
+        "project8": {
+          "title": "Interactive iPhone Showcase Website"
+        },
+        "project9": {
+          "title": "Kids Toys Online Store"
+        },
+        "project10": {
+          "title": "Full-Stack Admin Dashboard"
+        }
+      }
+    },
+
+    "contact": {
+      "title": "Contact me for collaboration",
+      "subtitle": "Reach out today to discuss your project needs and start collaborating on something amazing!",
+      "name": "Name",
+      "namePlaceholder": "Mokhtari Mohamed Lamine",
+      "email": "Email",
+      "emailPlaceholder": "aminemokhtari028@gmail.com",
+      "message": "Message",
+      "messagePlaceholder": "Hi",
+      "submit": "Submit",
+      "sending": "Sending...",
+      "success": "Email Sent Successfully",
+      "error": "Something went wrong"
+    },
+
+    "footer": {
+      "title": "Let's work together today!",
+      "cta": "Start project",
+      "sitemap": {
+        "title": "Sitemap",
+        "home": "Home",
+        "about": "About",
+        "work": "Work",
+        
+        "contact": "Contact me"
+      },
+      "socials": {
+        "title": "Socials"
+       
+      },
+      "copyright": "Mokhtari Mohamed Lamine"
+    }
+  }

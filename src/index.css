@@ -1,0 +1,178 @@
+@import "tailwindcss";
+
+html {
+  scroll-behaviour: smooth
+}
+
+body {
+  @apply bg-zinc-900 text-zinc-50 
+}
+
+
+/* Typographie  */
+.headline-1,
+.headline-2 {
+  @apply max-w-max;
+  background : -webkit-linear-gradient(0deg, #fafafa, #a1a1a1);
+  -webkit-background-clip : text;
+  -webkit-text-fill-color : transparent;
+}
+
+.headline-1 {
+  @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15]
+}
+
+.headline-2 {
+  @apply text-3xl lg:text-4xl lg:leading-tight font-semibold
+}
+
+.title-1 {
+  @apply text-[22px] font-normal
+}
+
+/* Utilities  */
+
+.container {
+  @apply px-4 mx-auto lg:px-8 xl:max-w-6xl;
+}
+
+.hero-container {
+  @apply mr-6;
+}
+
+.img-box {
+  @apply bg-zinc-700 overflow-hidden;
+}
+
+.img-cover {
+  @apply w-full h-full object-cover
+}
+
+.section {
+  @apply pt-20 lg:pt-32
+}
+
+.reveal-up {
+  @apply translate-y-20 opacity-0;
+}
+
+/* Scrollbar  */
+
+::-webkit-scrollbar {
+  width: 8px;              
+  height: 8px;             
+}
+
+::-webkit-scrollbar-track {
+  background: #27272a;     
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #71717a;  
+  border-radius: 8px;
+  border: 2px solid #27272a;  
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #52525b; 
+}
+
+/* For Firefox scrollbar*/
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #71717a #27272a;
+}
+
+
+/* Menu btn  */
+
+.menu-btn {
+  @apply w-10 h-10 grid place-items-center bg-zinc-50/10 rounded-xl ring-inset ring-1
+  ring-zinc-50/[0.02] backdrop-blur-2xl hover:bg-zinc-50/15 cursor-pointer
+  transition-[transform,background-color] active:scale-95 md:hidden
+}
+
+/* Navbar */
+.navbar {
+  @apply absolute top-full mt-2 right-0 min-w-40 p-2 bg-zinc-900/90 rounded-2xl ring-inset
+  ring-1 ring-zinc-50/5 scale-90 isolate blur-none opacity-0 invisible 
+  transition-[opacity,transform,filter] md:bg-zinc-50/10;
+}
+
+
+@media (min-width: 768px) {
+  .navbar {
+    @apply static flex items-center mt-0 opacity-100 visible scale-100 backdrop-blur-2xl ;
+  }
+}
+
+
+
+.navbar.active {
+  opacity: 1;
+  scale: 1;
+  filter: blur(0);
+  visibility: visible;
+}
+
+.nav-link {
+  @apply grid items-center h-9 px-4 text-sm font-medium tracking-wide text-zinc-50/50
+  hover:text-zinc-50 transition-colors
+}
+
+.nav-link.active {
+  @apply text-zinc-900 duration-500
+}
+
+.navbar .active-box {
+  @apply absolute bg-zinc-50 rounded-lg -z-10 
+  transition-[top,left] duration-500
+}
+
+/* Button */
+
+.btn {
+  @apply max-w-max h-9 flex items-center gap-2 px-4 rounded-xl font-medium text-sm
+  ring-1 ring-zinc-50/5 ring-inset transition-[background-color];
+}
+
+.contact-header-button {
+  @apply max-md:hidden
+}
+
+.btn-secondary  {
+ @apply bg-zinc-50 text-zinc-900 active:bg-zinc-50/80 
+}
+
+.btn .material-symbols-rounded {
+  @apply text-[18px]
+
+}
+
+.btn:has(.material-symbols-rounded) {
+  @apply px-3
+}
+
+.btn-primary {
+  @apply h-11 bg-sky-400 text-zinc-950 hover:bg-sky-300 active:bg-sky-400
+  cursor-pointer
+}
+
+.btn-outline {
+  @apply h-11 bg-zinc-800 hover:bg-zinc-700 active:bg-zinc-800
+}
+
+/* TEXT FIELD  */
+
+.label {
+  @apply block text-zinc-200 text-sm font-normal mb-2
+}
+
+.text-field {
+  @apply block outline-none w-full px-3 py-3 text-sm bg-zinc-800 rounded-xl ring-1 ring-inset ring-transparent
+  transition-shadow hover:ring-zinc-50/5 focus:ring-sky-400 focus:ring-2
+}
+
+.text-field::placeholder {
+  @apply text-zinc-400
+}

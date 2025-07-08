@@ -1,0 +1,129 @@
+{
+    "nav": {
+      "home": "Accueil",
+      "about": "À propos",
+      "work": "Travail",
+      "contact": "Contact"
+    },
+
+    "about": {
+      "description": "Bienvenue ! Je suis Mokhtrai Mohamed Lamine, un développeur web avec plus de 3 ans d’expérience. J’utilise HTML, CSS, JavaScript, React, PHP, Laravel et WordPress pour créer des sites performants, responsives et centrés sur l’expérience utilisateur et les résultats concrets.",
+      "project_done": "Projet réalisé",
+      "years_experience": "Années d'expérience"
+    },
+
+    
+      "hero": {
+        "available": "Disponible pour travailler",
+        "title": "Développer des sites web fiables et performants",
+        "download": "Télécharger le CV",
+        "scroll": "Faire défiler vers le bas"
+      
+    },
+
+    "skill": {
+     "title": "Outils Essentiels que j'utilise",
+     "description": "Découvrez les outils et technologies que j’utilise pour développer des sites web et applications performants, fiables et adaptés à vos besoins."
+    },
+
+    "work": {
+      "title": "Ce Que je construis",
+      "projects": {
+        "project1": {
+          "title": "Site Vente Voitures"
+        },
+        "project2": {
+          "title": "Houari Ibrahim Directeur"
+        },
+        "project3": {
+          "title": "Site Web du Collège Edusity"
+        },
+        "project4": {
+          "title": "Site Caritatif Albaraka"
+        },
+        "project5": {
+          "title": "Site e-commerce"
+        },
+        "project6": {
+          "title": "Boutique Téléphones et Accessoires"
+        },
+        "project7": {
+          "title": "Portfolio Sami Aladwani"
+        },
+        "project8": {
+          "title": "Présentation Interactive d’iPhone"
+        },
+        "project9": {
+          "title": "Boutique Jouets Enfants"
+        },
+        "project10": {
+          "title": "Tableau de Bord Complet"
+        }
+      }
+    },
+
+    "Skills" :{
+      "Skill1" : {
+        "title": "langage de balisage structuré"
+      },
+      "Skill2" : {
+        "title": "interface utilisateur"
+      },
+      "Skill3" : {
+        "title": "Interaction"
+      },
+      "Skill4" : {
+        "title": "Langage du backend"
+      },
+      "Skill5" : {
+        "title": "plateforme CMS"
+      },
+      "Skill6" : {
+        "title": "Cadre PHP"
+      },
+      "Skill7" : {
+        "title": "Bibliothèque Javascript"
+      },
+      "Skill8" : {
+        "title": "Interface utilisateur"
+      }
+    },
+
+    
+      "contact": {
+        "title": "Contactez-moi pour collaborer",
+        "subtitle": "Contactez-moi dès aujourd'hui pour discuter de votre projet et commencer une collaboration incroyable !",
+        "name": "Nom",
+        "namePlaceholder": "Mokhtari Mohamed Lamine",
+        "email": "Email",
+        "emailPlaceholder": "aminemokhtari028@gmail.com",
+        "message": "Message",
+        "messagePlaceholder": "Salut",
+        "submit": "Envoyer",
+        "sending": "Envoi en cours...",
+        "success": "E-mail envoyé avec succès",
+        "error": "Une erreur s'est produite"
+      },
+
+      "footer": {
+        "title": "Travaillons ensemble aujourd'hui !",
+        "cta": "Démarrer le projet",
+        "sitemap": {
+          "title": "Plan du site",
+          "home": "Accueil",
+          "about": "A propos",
+          "work": "Travail",
+          
+          "contact": "Contact"
+        },
+        "socials": {
+          "title": "Socials"
+        
+        },
+        "copyright": "Mokhtari Mohamed Lamine"
+      }
+    
+    
+    
+  }
+  
