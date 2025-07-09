@@ -34,7 +34,7 @@ const Hero = () => {
 
           <div className="flex items-center gap-3">
             <ButtonPrimary
-            href="https://drive.google.com/file/d/1CzJUas4XBBNhZhYeqadWx_QwapzQXcPn/view"
+            href="https://drive.google.com/file/d/1tXcFne9b0dYWgBZNaBAtroSynCtVw62V/view?usp=sharing"
             label={t('hero.download')}
             icon="download"
             /> 
