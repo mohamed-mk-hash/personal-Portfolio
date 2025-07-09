@@ -71,6 +71,12 @@ const works = [
     title: 'work.projects.project10.title',
     tags: ['Laravel', 'React'],
     githubLink: 'https://github.com/mohamed-mk-hash/React-Laravel-Admin-Dashboard',
+  },
+   {
+    imgSrc: '/images/portfolio.png',
+    title: 'work.projects.project11.title',
+    tags: ['Gsap', 'React'],
+    githubLink: 'https://github.com/mohamed-mk-hash/personal-Portfolio',
   }
 ];
 
