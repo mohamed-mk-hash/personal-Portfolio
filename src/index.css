@@ -37,7 +37,7 @@ body {
 }
 
 .hero-container {
-  @apply mr-6;
+  margin-right: 0 auto;
 }
 
 .img-box {
