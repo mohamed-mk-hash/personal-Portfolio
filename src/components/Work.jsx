@@ -32,7 +32,7 @@ const works = [
       imgSrc: '/images/albaraka.jpg',
       title: 'work.projects.project4.title',
       tags: ['Woordpress'],
-      projectLink: 'https://albarakaglobal.org/'
+      projectLink: 'https://elbaraka.org/'
     },
     {
       imgSrc: '/images/selle-de-sport.jpg',
@@ -48,10 +48,10 @@ const works = [
       githubLink: 'https://github.com/mohamed-mk-hash/phone-store-php'
     },
     {
-      imgSrc: '/images/sami-aladouani.jpg',
+      imgSrc: '/images/syria-invest.png',
       title: 'work.projects.project7.title',
       tags: ['Woordpress'],
-      projectLink: 'https://sami-aladwani.com/'
+      projectLink: 'https://mofeed.shop/'
     },
     {
       imgSrc: '/images/iphone-preentation.jpg',
@@ -77,8 +77,16 @@ const works = [
     title: 'work.projects.project11.title',
     tags: ['Gsap', 'React'],
     githubLink: 'https://github.com/mohamed-mk-hash/personal-Portfolio',
+  },
+     {
+    imgSrc: '/images/makri_website.jpg',
+    title: 'work.projects.project12.title',
+    tags: ['Woordpress'],
+    projectLink: 'https://mofeed.store/',
   }
 ];
+
+console.log('work.projects.project11.title');
 
 const Work = () => {
 
