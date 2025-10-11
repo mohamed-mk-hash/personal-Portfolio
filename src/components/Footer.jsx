@@ -26,6 +26,10 @@ const sitemap = [
       label: 'LinkedIn',
       href: 'https://www.linkedin.com/in/mokhtarimohamedlamine/'
     },
+     {
+      label: 'Facebook',
+      href: 'https://www.facebook.com/profile.php?id=61582311654362'
+    },
   ];
 
   return (
