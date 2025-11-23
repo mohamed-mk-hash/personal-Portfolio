@@ -82,7 +82,7 @@ const works = [
     imgSrc: '/images/makri_website.jpg',
     title: 'work.projects.project12.title',
     tags: ['Woordpress'],
-    projectLink: 'https://mofeed.store/',
+    projectLink: 'https://abderrazakmakri.com/',
   }
 ];
 
