@@ -32,7 +32,7 @@ const works = [
       imgSrc: '/images/albaraka.jpg',
       title: 'work.projects.project4.title',
       tags: ['Woordpress'],
-      projectLink: 'https://elbaraka.org/'
+      projectLink: 'https://bereketglobal-tr.org/'
     },
     {
       imgSrc: '/images/selle-de-sport.jpg',
