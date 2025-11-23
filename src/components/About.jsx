@@ -7,11 +7,11 @@ import { useTranslation } from 'react-i18next'
 const aboutItems = [
   {
     key: 'about.project_done',
-    number: 45
+    number: 15
   },
   {
     key: 'about.years_experience',
-    number: 3
+    number: 2
   }
 ];
 
