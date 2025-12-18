@@ -83,6 +83,12 @@ const works = [
     title: 'work.projects.project12.title',
     tags: ['Woordpress'],
     projectLink: 'https://abderrazakmakri.com/',
+  },
+    {
+    imgSrc: '/images/construction.png',
+    title: 'work.projects.project13.title',
+    tags: ['Laravel', 'React],
+    githubLink: 'https://github.com/mohamed-mk-hash/construction-project',
   }
 ];
 
