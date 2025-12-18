@@ -87,9 +87,9 @@ const works = [
     {
     imgSrc: '/images/construction.png',
     title: 'work.projects.project13.title',
-    tags: ['Laravel', 'React],
+    tags: ['Laravel', 'React'],
     githubLink: 'https://github.com/mohamed-mk-hash/construction-project',
-  }
+  },
 ];
 
 console.log('work.projects.project11.title');
